@@ -1,192 +1,224 @@
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  list-style: none;
+}
+
+div {
+  margin: 50px;
 }
 
 body {
-font-family: Arial, sans-serif;
-background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
 }
 
 header {
-background-color: #333;
-color: #fff;
-padding: 20px;
-text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
 
 nav {
-display: flex;
-flex-direction: row;
-justify-content: center;
-background-color: #f9f9f9;
-padding: 20px;
-overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  overflow: hidden;
 }
 
 nav a {
-float: left;
-display: block;
-color: #333;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-font-size: 17px;
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 nav a:hover {
-background-color: #ddd;
-color: black;
+  background-color: #ddd;
+  color: black;
 }
 
+
 section {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
 }
 
 article {
-background-color: #fff;
-border: 1px solid #ccc;
-margin: 20px;
-padding: 20px;
-flex-basis: calc(33.33% - 40px);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 20px;
+  flex-basis: calc(33.33% - 40px);
 }
 
-
 #projects {
-height: 100vh;
+  height: 100vh;
 }
 
 footer {
-background-color: #333;
-color: #fff;
-text-align: center;
-padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
 
 #home {
-background-image: url('https://placeimg.com/640/480/arch');
-background-size: cover;
-background-position: center;
-height: 500px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color: #fff;
-text-align: center;
+  background: url("background.png");
+  background-color: rgb(12, 0, 30);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: screen;
+
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
 }
 
 #home h1 {
-font-size: 60px;
-margin-bottom: 20px;
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 #home p {
-font-size: 20px;
-margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
-
 #about {
-display: flex;
-flex-direction: column;
-align-items: center;
-margin: 20px;
-padding: 20px;
-background-color: #fff;
-border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
 }
 
 #about h2 {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #about p {
-text-align: center;
+  text-align: center;
 }
 /* Style for Contact section */
 
 #contact {
-    background-color: #f1f1f1;
-    padding: 50px;
+  background-color: #f1f1f1;
+  padding: 50px;
 }
 
 #contact h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 
 #contact p {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
 #contact form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
 }
 
 #contact label {
-    font-size: 18px;
-    margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 #contact input,
 #contact textarea {
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
 }
 
 #contact input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 #contact input[type="submit"]:hover {
-    background-color: #3e8e41;
+  background-color: #3e8e41;
 }
 
+/* Style for the image in contact.html */
+#contact img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
+/* Add borders to all tables in contact.html */
+#contact table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#contact th,
+#contact td {
+  border: 1px solid #000; /* Change color and thickness as needed */
+  padding: 8px;
+  text-align: center;
+}
+
+#contact th {
+  background-color: #f2f2f2; /* Change the background color for table headers */
+}
 
 @media only screen and (max-width: 600px) {
-    nav a {
-        float: none;
-        display: block;
-    }
-    
-    section {
-        margin: 10px;
-    }
-    
-    article {
-        flex-basis: calc(50% - 40px);
-    }
-    
-    #home {
-        height: 300px;
-    }
-    
-    #home h1 {
-        font-size: 40px;
-    }
-    
-    #home p {
-        font-size: 16px;
-    }
-}
+  nav a {
+    float: none;
+    display: block;
+  }
 
-  
+  section {
+    margin: 10px;
+  }
+
+  article {
+    flex-basis: calc(50% - 40px);
+  }
+
+  #home {
+    height: 300px;
+  }
+
+  #home h1 {
+    font-size: 40px;
+  }
+
+  #home p {
+    font-size: 16px;
+  }
+}
