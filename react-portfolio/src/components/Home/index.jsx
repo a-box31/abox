@@ -7,6 +7,7 @@ import Logo from './Logo'
 import Loader from 'react-loaders'
 
 
+
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['b', 'i', 'n', ' ', 'T', 'h', 'o', 'm', 'a', 's']

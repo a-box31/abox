@@ -1,62 +1,11 @@
 import './index.scss'
 import LogoA from '../../../assets/images/logo-a.png'
-import { useRef, useEffect } from 'react'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
-import gsap from 'gsap-trial'
 
 const Logo = () => {
-  const bgRef = useRef()
-  const outlineLogoRef1 = useRef()
-  const outlineLogoRef2 = useRef()
-  const solidLogoRef = useRef()
-
-  useEffect(() => {
-    gsap.registerPlugin(DrawSVGPlugin)
-
-    gsap
-      .timeline()
-      .to(bgRef.current, {
-        duration: 1,
-        opacity: 1,
-      })
-      .fromTo(
-        outlineLogoRef1.current,
-        {
-          drawSVG: 0,
-        },
-        {
-          drawSVG: '100%',
-          duration: 10,
-        }
-      )
-      .fromTo(
-        outlineLogoRef2.current,
-        {
-          drawSVG: 0,
-        },
-        {
-          drawSVG: '100%',
-          duration: 5,
-        },
-        '<4'
-      )
-
-      gsap.fromTo(
-        solidLogoRef.current ,
-        {
-          opacity: 0
-        },
-        {
-          opacity: 1,
-          delay: 5,
-          duration: 4,
-        }
-      )
-  }, [])
 
   return (
-    <div className="logo-container" ref={bgRef}>
-      <img ref={solidLogoRef} className="solid-logo" src={LogoA} alt="A" />
+    <div className="logo-container">
+      <img className="solid-logo" src={LogoA} alt="A" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.0"
@@ -64,9 +13,8 @@ const Logo = () => {
         width="720"
         height="720"
       >
-        <g className="svg-container" fill="none">
+        <g className="svg-container" >
           <path
-            ref={outlineLogoRef1}
             d="
               M 238.94 642.86
               Q 237.08 642.89 235.97 643.47
@@ -487,7 +435,6 @@ const Logo = () => {
               Z"
           />
           <path
-            ref={outlineLogoRef2}
             d="
               M 516.78 392.28
               Q 516.79 391.79 516.45 391.04
@@ -699,7 +646,6 @@ const Logo = () => {
               Z"
           />
           <path
-            //ref={outlineLogoRef}
             d="
               M 453.36 530.41
               Q 454.12 530.02 455.01 530.00
@@ -717,7 +663,6 @@ const Logo = () => {
               Z"
           />
           <path
-            //ref={outlineLogoRef}
             d="
               M 606.75 623.67
               C 600.74 608.67 596.69 597.86 591.21 585.71
@@ -738,7 +683,6 @@ const Logo = () => {
               Z"
           />
           <path
-            //ref={outlineLogoRef}
             d="
               M 24.30 574.58
               Q 25.33 572.82 26.22 570.97
@@ -752,7 +696,6 @@ const Logo = () => {
               Z"
           />
           <path
-            //ref={outlineLogoRef}
             d="
               M 180.95 645.42
               C 178.02 643.01 174.24 641.21 171.06 639.03

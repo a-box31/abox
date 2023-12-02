@@ -41,6 +41,12 @@
       animation: fadeIn 1.5s 2s backwards;
     }
 
+    .text-animate-hover {
+      &:hover{
+        color: orange !important;
+      }
+    }
+
     img {
       position: relative;
       top: 4px;
@@ -83,3 +89,5 @@ h2 {
     color: #333;
   }
 }
+
+
