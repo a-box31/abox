@@ -4,7 +4,7 @@ import LogoA from '../../assets/images/logo-a.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faHome, faUser, faDiagramProject, faAt, faKeyboard } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub , faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const SideBar = () => {
@@ -33,6 +33,24 @@ const SideBar = () => {
           <NavLink
             exact="true"
             activeclassname="active"
+            className="project-link"
+            to="/project"
+          >
+            <FontAwesomeIcon icon={faDiagramProject} color="#4d4d4e" />
+          </NavLink>
+
+          <NavLink
+            exact="true"
+            activeclassname="active"
+            className="blog-link"
+            to="/blog"
+          >
+            <FontAwesomeIcon icon={faKeyboard} color="#4d4d4e" />
+          </NavLink>
+
+          <NavLink
+            exact="true"
+            activeclassname="active"
             className="contact-link"
             to="/contact"
           >
@@ -41,6 +59,15 @@ const SideBar = () => {
         </nav>
 
         <ul>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:thomaa2031@gmail.com"
+            >
+              <FontAwesomeIcon icon={faAt} color="#4d4d4e" />
+            </a>
+          </li>
           <li>
             <a
               target="_blank"
@@ -72,7 +99,7 @@ const SideBar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.instagram.com/a_box_31/"
+              href="https://twitter.com/abintho94746847"
             >
               <FontAwesomeIcon icon={faXTwitter} color="#4d4d4e" />
             </a>

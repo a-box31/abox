@@ -3,6 +3,7 @@ import SideBar from '../Sidebar'
 import { Outlet } from 'react-router-dom'
 
 const Layout = () => {
+
   return (
     <div className="App">
 
@@ -14,7 +15,7 @@ const Layout = () => {
           <br />
           &lt;body&gt;
         </span>
-
+      
         <Outlet />
 
         <span className="tags bottom-tags">
