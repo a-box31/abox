@@ -1,4 +1,5 @@
 import './index.scss'
+import PersonalPhoto from '../../assets/images/personal_photo.jpg'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -39,6 +40,7 @@ const About = () => {
             visually appealing user interfaces and implementing robust back-end
             functionalities, I find joy in every line of code I write.
           </p>
+          <img src={PersonalPhoto} alt="Personal Photo" height="150" width="150"/>
           <p>
             🌐 My journey into the realm of technology currently resides at Pace
             University, where I am honing my skills and staying ahead of the

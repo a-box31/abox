@@ -51,6 +51,18 @@ const Blog = () => {
           </p>
 
           <div className="collection">
+            <article id="3">
+              <h2>Selmer Bot 2023</h2>
+              <iframe
+                src="https://docs.google.com/presentation/d/e/2PACX-1vRWFf4d9G_W1zkDzRJzL1K-_KptxI0bpyX2OszentrWvS100FcTgGGQQX2Pj057B_52dXg8KvjCY0gH/embed?start=true&loop=true&delayms=1000"
+                frameborder="0"
+                width="800"
+                height="500"
+                allowfullscreen="true"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+              ></iframe>
+            </article>
             <article id="1">
               <h2>
                 Unlocking Code: Navigating the Digital Knowledge Oasis of Stack
@@ -73,19 +85,6 @@ const Blog = () => {
               </h2>
               <iframe
                 src="https://docs.google.com/document/d/e/2PACX-1vQAFWsQZ3HXDZiR2mkuRb5tadUoioDiMXth1rG2LSEvsCGMJ3IITpmInC6oKxXCRXe8uDFfBFQ-TVK3/pub?embedded=true"
-                frameborder="0"
-                width="800"
-                height="500"
-                allowfullscreen="true"
-                mozallowfullscreen="true"
-                webkitallowfullscreen="true"
-              ></iframe>
-            </article>
-
-            <article id="3">
-              <h2>Selmer Bot 2023</h2>
-              <iframe
-                src="https://docs.google.com/presentation/d/e/2PACX-1vRWFf4d9G_W1zkDzRJzL1K-_KptxI0bpyX2OszentrWvS100FcTgGGQQX2Pj057B_52dXg8KvjCY0gH/embed?start=true&loop=true&delayms=3000"
                 frameborder="0"
                 width="800"
                 height="500"

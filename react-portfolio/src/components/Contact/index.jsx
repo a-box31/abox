@@ -2,6 +2,7 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
+import Emoji from '../../assets/images/emoji.jpg'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -23,6 +24,7 @@ const Contact = () => {
               letterClass={letterClass}
             />
           </h1>
+          <img src={Emoji} alt="emote" height="150" width="150"/>
           <p>
             📬 Get in touch , I'm all ears. Feel free to drop me a message using
             the form below, and I'll get back to you as soon as possible. Your
