@@ -51,7 +51,7 @@ const Blog = () => {
           </p>
 
           <div className="collection">
-            <article id="3">
+            <article id="1">
               <h2>Selmer Bot 2023</h2>
               <iframe
                 src="https://docs.google.com/presentation/d/e/2PACX-1vRWFf4d9G_W1zkDzRJzL1K-_KptxI0bpyX2OszentrWvS100FcTgGGQQX2Pj057B_52dXg8KvjCY0gH/embed?start=true&loop=true&delayms=1000"
@@ -63,7 +63,7 @@ const Blog = () => {
                 webkitallowfullscreen="true"
               ></iframe>
             </article>
-            <article id="1">
+            <article id="2">
               <h2>
                 Unlocking Code: Navigating the Digital Knowledge Oasis of Stack
                 Overflow
@@ -79,7 +79,7 @@ const Blog = () => {
               ></iframe>
             </article>
 
-            <article id="2">
+            <article id="3">
               <h2>
                 The Power of Visual Storytelling: Analyzing Human Existence
               </h2>

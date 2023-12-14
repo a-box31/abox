@@ -24,7 +24,7 @@ const Contact = () => {
               letterClass={letterClass}
             />
           </h1>
-          <img src={Emoji} alt="emote" height="150" width="150"/>
+          <img src={Emoji} className="picture" alt="emote"/>
           <p>
             📬 Get in touch , I'm all ears. Feel free to drop me a message using
             the form below, and I'll get back to you as soon as possible. Your
