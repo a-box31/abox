@@ -4,8 +4,20 @@ import LogoA from '../../assets/images/logo-a.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faUser, faDiagramProject, faAt, faKeyboard } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin, faGithub , faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons'
+import {
+  faEnvelope,
+  faHome,
+  faUser,
+  faDiagramProject,
+  faAt,
+  faKeyboard,
+} from '@fortawesome/free-solid-svg-icons'
+import {
+  faLinkedin,
+  faGithub,
+  faInstagram,
+  faXTwitter,
+} from '@fortawesome/free-brands-svg-icons'
 
 const SideBar = () => {
   return (
@@ -63,15 +75,6 @@ const SideBar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="mailto:thomaa2031@gmail.com"
-            >
-              <FontAwesomeIcon icon={faAt} color="#4d4d4e" />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer"
               href="https://www.linkedin.com/in/abin-thomas-89361b25b"
             >
               <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
@@ -102,6 +105,15 @@ const SideBar = () => {
               href="https://twitter.com/abintho94746847"
             >
               <FontAwesomeIcon icon={faXTwitter} color="#4d4d4e" />
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:thomaa2031@gmail.com"
+            >
+              <FontAwesomeIcon icon={faAt} color="#4d4d4e" />
             </a>
           </li>
         </ul>

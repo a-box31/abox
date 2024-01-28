@@ -35,6 +35,9 @@ const Blog = () => {
               <li>
                 <a href="#3">Article 3</a>
               </li>
+              <li>
+                <a href="#4">Article 4</a>
+              </li>
             </ul>
           </nav>
 
@@ -85,6 +88,20 @@ const Blog = () => {
               </h2>
               <iframe
                 src="https://docs.google.com/document/d/e/2PACX-1vQAFWsQZ3HXDZiR2mkuRb5tadUoioDiMXth1rG2LSEvsCGMJ3IITpmInC6oKxXCRXe8uDFfBFQ-TVK3/pub?embedded=true"
+                frameborder="0"
+                width="800"
+                height="500"
+                allowfullscreen="true"
+                mozallowfullscreen="true"
+                webkitallowfullscreen="true"
+              ></iframe>
+            </article>
+            <article id="4">
+              <h2>
+                The Power of Visual Storytelling: Analyzing Human Existence
+              </h2>
+              <iframe
+                src="https://docs.google.com/document/d/e/2PACX-1vSXnVea8zjOBOPdtusBw_O95IVxsJ77s6prYVUulBvWmL-hpg0Agc0Z01YSaxZ6o19YwtDSVXh2Jx8I/pub?embedded=true"
                 frameborder="0"
                 width="800"
                 height="500"
