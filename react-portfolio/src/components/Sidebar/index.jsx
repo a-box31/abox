@@ -102,7 +102,7 @@ const SideBar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://twitter.com/abintho94746847"
+              href="https://twitter.com/thomaa2031"
             >
               <FontAwesomeIcon icon={faXTwitter} color="#4d4d4e" />
             </a>
