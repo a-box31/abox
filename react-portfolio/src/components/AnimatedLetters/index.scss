@@ -1,0 +1,27 @@
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: block;
+  animation: bounceIn 1s 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+}
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+
+    &:hover {
+        animation: rubberBand 1s;
+        color: orange !important;
+    }  
+}
+
+// loop through 35 times to create a unique animation elements
+@for $i from 1 through 40 {
+  // create the text animate class for each element
+  .text-animate._#{$i} {
+    animation-delay: #{ calc($i/11) }s;
+  }
+}
