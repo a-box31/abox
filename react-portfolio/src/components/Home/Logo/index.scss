@@ -1,14 +1,18 @@
 .logo-container {
   z-index: 0;
-  width: 500px;
-  height: 609px;
+  width: 30vw;
+  height: auto;
   position: absolute;
   top: 0;
-  right: 15%;
+  right: 10%;
   bottom: 0;
   left: auto;
   margin: auto;
   opacity: 1;
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   svg {
     width: 100%;
@@ -32,6 +36,17 @@
 
   }
 }
+
+@media (max-width: 600px){
+
+  .logo-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+}
+
 
 .svg-container {
   fill: transparent;

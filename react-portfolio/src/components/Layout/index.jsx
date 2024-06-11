@@ -9,21 +9,21 @@ const Layout = () => {
 
       <SideBar />
 
-      <div className="page">
-        <span className="tags top-tags">
-          <span className="top-tag-html">&lt;html&gt;</span>
+      <div>
+        <div className="tags top-tags">
+          <div className="top-tag-html">&lt;html&gt;</div>
           <br />
           &lt;body&gt;
-        </span>
-      
-        <Outlet />
+        </div>
 
-        <span className="tags bottom-tags">
+        <div className="tags bottom-tags">
           &lt;/body&gt;
           <br />
-          <span className="bottom-tag-html">&lt;/html&gt;</span>
-        </span>
+          <div className="bottom-tag-html">&lt;/html&gt;</div>
+        </div>
       </div>
+
+      <div className="page"><Outlet /></div>
       
     </div>
   )

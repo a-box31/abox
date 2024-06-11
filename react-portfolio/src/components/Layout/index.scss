@@ -1,8 +1,15 @@
+.App{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
 .page {
   width: 100%;
   height: 100%;
   position: absolute;
   overflow-y: scroll;
+  overflow-x: hidden;
   scroll-behavior: smooth !important;
 }
 
@@ -32,23 +39,27 @@
 .container {
   width: 100%;
   will-change: contents;
-  height: 90%;
+  height: fit-content;
   min-height: 566px;
   position: absolute;
   opacity: 0;
-  top: 5%;
+  top: 15%;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
   // background-color: aqua;
+  // left: 10%;
 }
+
+// PAGES -----------------------------------------------------------------------
+
 
 .about-page {
   .text-zone {
     position: absolute;
-    left: 10%;
+    left: 20%;
     top: 45%;
     transform: translateY(-50%);
     width: 40%;
@@ -116,13 +127,16 @@
       }
     }
   }
+
+
 }
 
 .contact-page {
+  
   .text-zone {
     position: absolute;
-    left: 10%;
-    top: 15vh;
+    left: 20%;
+    top: 10vh;
     width: 40%;
     vertical-align: middle;
     display: table-cell;
@@ -191,11 +205,11 @@
   }
 }
 
-.project-page {
+.resume-page {
   .text-zone {
     position: absolute;
-    left: 10%;
-    top: 45%;
+    left: 15%;
+    top: 55%;
     transform: translateY(-30%);
     width: 60%;
     vertical-align: middle;
@@ -339,8 +353,9 @@
 }
 
 
-.picture {
-  animation: fadeIn 1s 1s alternate;
-  height: 150px;
-  width: 150px;
-}
+  .picture {
+    animation: fadeIn 1s 1s alternate;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+  }

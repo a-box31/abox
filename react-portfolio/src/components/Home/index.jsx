@@ -37,6 +37,7 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
+        
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -64,6 +65,7 @@ const Home = () => {
         </div>
 
         <Logo />
+
       </div>
       <Loader type="triangle-skew-spin" />
     </>

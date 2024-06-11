@@ -5,6 +5,7 @@ const Logo = () => {
 
   return (
     <div className="logo-container">
+
       <img className="solid-logo" src={LogoA} alt="A" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -715,6 +716,7 @@ const Logo = () => {
           />
         </g>
       </svg>
+      
     </div>
   )
 }
