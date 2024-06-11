@@ -18,14 +18,17 @@ const Resume = () => {
         <div className="text-zone">
           <h1>
             <AnimatedLetters
-              strArray={['M', 'y', ' ', 'P', 'r', 'o', 'j', 'e', 'c', 't', 's']}
+              strArray={['M', 'y', ' ', 'R', 'e', 's', 'u', 'm', 'e']}
               idx={15}
               letterClass={letterClass}
             />
           </h1>
 
-          <iframe className="resume" src="https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true"></iframe>
-
+          <iframe
+            className="resume"
+            src="https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true"
+          ></iframe>
+          
         </div>
       </div>
       <Loader type="triangle-skew-spin" />
