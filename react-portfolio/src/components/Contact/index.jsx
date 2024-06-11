@@ -78,10 +78,6 @@ const Contact = () => {
                   ></textarea>
                 </li>
                 <li>
-                  <input type="checkbox" name="agree" /> I agree to the terms
-                  and conditions
-                </li>
-                <li>
                   <input type="submit" value="SEND" className="flat-button" />
                 </li>
               </ul>
