@@ -24,7 +24,7 @@ const Contact = () => {
               letterClass={letterClass}
             />
           </h1>
-          <img src={Emoji} className="picture" alt="emote"/>
+          <img src={Emoji} className="picture" alt="emote" />
           <p>
             📬 Get in touch , I'm all ears. Feel free to drop me a message using
             the form below, and I'll get back to you as soon as possible. Your
@@ -54,16 +54,11 @@ const Contact = () => {
                 </div>
 
                 <li>
-                  <input type="radio" name="gender" value="male" /> Male
-                  <input type="radio" name="gender" value="female" /> Female
-                </li>
-
-                <li>
                   Selection Menu:
                   <select name="selectmenu">
-                    <option value="option1">Option 1</option>
-                    <option value="option2">Option 2</option>
-                    <option value="option3">Option 3</option>
+                    <option value="Employer">Employer</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Associate">Associate</option>
                   </select>
                 </li>
 
