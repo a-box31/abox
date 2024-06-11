@@ -8,7 +8,7 @@ import {
   faEnvelope,
   faHome,
   faUser,
-  faDiagramProject,
+  faFile,
   faAt,
   faKeyboard,
 } from '@fortawesome/free-solid-svg-icons'
@@ -45,10 +45,10 @@ const SideBar = () => {
           <NavLink
             exact="true"
             activeclassname="active"
-            className="project-link"
-            to="/project"
+            className="resume-link"
+            to="/resume"
           >
-            <FontAwesomeIcon icon={faDiagramProject} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faFile} color="#4d4d4e" />
           </NavLink>
 
           <NavLink

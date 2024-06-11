@@ -1,0 +1,17 @@
+// Table Styles
+.resume {
+  width: 40vw;
+  height: 50vw;
+  opacity: 0;
+  animation: fadeInUp 2s 2s;
+  animation-fill-mode: forwards;
+  clear: both;
+
+  left: 50%;
+}
+
+.text-animate-hover {
+  &:hover {
+    color: white !important;
+  }
+}
