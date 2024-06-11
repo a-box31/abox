@@ -23,7 +23,9 @@ const Layout = () => {
         </div>
       </div>
 
-      <div className="page"><Outlet /></div>
+      <div className="page">
+        <Outlet />
+      </div>
       
     </div>
   )

@@ -38,6 +38,9 @@ const Blog = () => {
               <li>
                 <a href="#4">Article 4</a>
               </li>
+              <li>
+                <a href="#4">Article 4</a>
+              </li>
             </ul>
           </nav>
 
