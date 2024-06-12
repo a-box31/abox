@@ -1,5 +1,5 @@
 import './index.scss'
-import PersonalPhoto from '../../assets/images/personal_photo.jpg'
+import PersonalPhoto from '../../assets/images/personal_photo.jpeg'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
