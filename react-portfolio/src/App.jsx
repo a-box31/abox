@@ -5,7 +5,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Resume from './components/Resume'
-import Blog from './components/Blog'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           <Route path="about" element={<About />}></Route>
           <Route path="contact" element={<Contact />}></Route>
           <Route path="resume" element={<Resume />}></Route>
-          <Route path="blog" element={<Blog />}></Route>
+          <Route path="projects" element={<Projects />}></Route>
         </Route>
       </Routes>
     </>

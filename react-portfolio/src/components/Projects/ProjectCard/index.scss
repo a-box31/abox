@@ -1,0 +1,36 @@
+$primary-color: #ffa500;
+
+.project-card{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(44, 100%, 49%);
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+
+        img {
+            height: 150px;
+            width: auto;
+        }
+        p {
+
+        }
+    }
+    a:visited {
+        color: black;
+    }
+}
+
+.project-icon {
+    width: 100%;
+}

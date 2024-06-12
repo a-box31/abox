@@ -9,8 +9,8 @@ import {
   faHome,
   faUser,
   faFile,
-  faAt,
   faKeyboard,
+  faAt,
 } from '@fortawesome/free-solid-svg-icons'
 import {
   faLinkedin,
@@ -54,8 +54,8 @@ const SideBar = () => {
           <NavLink
             exact="true"
             activeclassname="active"
-            className="blog-link"
-            to="/blog"
+            className="projects-link"
+            to="/projects"
           >
             <FontAwesomeIcon icon={faKeyboard} color="#4d4d4e" />
           </NavLink>
