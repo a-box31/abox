@@ -1,5 +1,7 @@
 
 .contact-page {
+
+  height: 100vh;
   
   .text-zone {
     position: absolute;
@@ -73,8 +75,10 @@
   }
 }
 
-@media ( max-width: 600px ) {
+@media ( max-width: 900px ) {
   .contact-page {
+
+    height: 130vh;
     
     .text-zone {
       position: absolute;
@@ -149,6 +153,13 @@
     box-sizing: border-box;
   }
 
+  .selection {
+    background: #115173;
+    color: white;
+    border-radius: 3px;
+    margin: 0 10px 0 10px;
+  }
+
   textarea {
     width: 100%;
     border: 0;
@@ -172,5 +183,7 @@
     float: right;
     border-radius: 4px;
   }
+
+
 }
 

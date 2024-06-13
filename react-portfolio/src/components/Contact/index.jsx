@@ -82,7 +82,7 @@ const Contact = () => {
 
                 <li>
                   Selection Menu:
-                  <select name="relation">
+                  <select name="relation" className='selection'>
                     <option value="Employer">Employer</option>
                     <option value="Friend">Friend</option>
                     <option value="Associate">Associate</option>
