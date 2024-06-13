@@ -2,7 +2,7 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
-import resume from '../../assets/Internship Resume - Purpose.pdf'
+import resume from '../../assets/Resume.pdf'
 
 const Resume = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -12,6 +12,7 @@ const Resume = () => {
       return setLetterClass('text-animate-hover')
     }, 4000)
   }, [])
+
 
   return (
     <>
@@ -28,10 +29,12 @@ const Resume = () => {
           <object
             className="resume"
             type="application/pdf"
-            data={ resume || "https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true" }
+            data={
+              resume &&
+              'https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true'
+            }
             // src="https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true"
           ></object>
-          
         </div>
       </div>
       <Loader type="triangle-skew-spin" />
