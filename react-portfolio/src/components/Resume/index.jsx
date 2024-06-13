@@ -2,6 +2,7 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
+import resume from '../../assets/Internship Resume - Purpose.pdf'
 
 const Resume = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -24,10 +25,12 @@ const Resume = () => {
             />
           </h1>
 
-          <iframe
+          <object
             className="resume"
-            src="https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true"
-          ></iframe>
+            type="application/pdf"
+            data={resume}
+            // src="https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true"
+          ></object>
           
         </div>
       </div>

@@ -1,7 +1,7 @@
 $primary-color: #ffa500;
 
 .resume-page {
-
+  // background-color: red;
   .text-zone {
     position: absolute;
     left: 15%;
@@ -76,16 +76,18 @@ $primary-color: #ffa500;
 
 // Table Styles
 .resume {
-  width: 800px;
-  height: 1175px;
+  width: 70vw;
+  height: 90vh;
   opacity: 0;
   animation: fadeInUp 2s 2s;
   animation-fill-mode: forwards;
   clear: both;
   background-color: $primary-color;
 
-  left: 50%;
+  left: 5%;
+  position: relative;
 }
+
 
 .text-animate-hover {
   &:hover {
