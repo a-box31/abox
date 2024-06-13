@@ -3,9 +3,36 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
 import Emoji from '../../assets/images/emoji.jpg'
+import { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_mgpkho9',
+        'template_yt18h29',
+        form.current,
+        'xPt6NtiZdJsmXk0dA'
+      )
+      .then(
+        (result) => {
+          alert(result.text)
+        },
+        (error) => {
+          alert(error.message)
+        }
+      )
+
+  };
+  
 
   useEffect(() => {
     setTimeout(() => {
@@ -32,13 +59,13 @@ const Contact = () => {
             your vision into a digital reality! 🌐💡
           </p>
           <div className="contact-form">
-            <form>
+            <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <div className="half-container">
                   <li className="half">
                     <input
                       type="text"
-                      name="name"
+                      name="from_name"
                       placeholder="name"
                       required
                     />
@@ -46,7 +73,7 @@ const Contact = () => {
                   <li className="half">
                     <input
                       type="email"
-                      name="email"
+                      name="from_email"
                       placeholder="email"
                       required
                     />
@@ -55,7 +82,7 @@ const Contact = () => {
 
                 <li>
                   Selection Menu:
-                  <select name="selectmenu">
+                  <select name="relation">
                     <option value="Employer">Employer</option>
                     <option value="Friend">Friend</option>
                     <option value="Associate">Associate</option>
@@ -65,7 +92,7 @@ const Contact = () => {
                 <li>
                   <input
                     placeholder="Subject"
-                    name="Subject"
+                    name="subject"
                     type="text"
                     required
                   />
