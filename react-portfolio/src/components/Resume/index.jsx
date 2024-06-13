@@ -28,7 +28,7 @@ const Resume = () => {
           <object
             className="resume"
             type="application/pdf"
-            data={resume}
+            data={ resume || "https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true" }
             // src="https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true"
           ></object>
           
