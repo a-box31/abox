@@ -26,7 +26,7 @@ const Resume = () => {
             />
           </h1>
 
-          <object
+          {/* <object
             className="resume"
             type="application/pdf"
             data={
@@ -34,7 +34,12 @@ const Resume = () => {
               'https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true'
             }
             // src="https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true"
-          ></object>
+          ></object> */}
+          <iframe
+            src="https://drive.google.com/file/d/1lk__676qubFdK7mKUme1N4ypljSbS1Gg/preview"
+            className="resume"
+            allow="autoplay"
+          ></iframe>
         </div>
       </div>
       <Loader type="triangle-skew-spin" />
