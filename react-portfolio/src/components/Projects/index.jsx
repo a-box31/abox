@@ -6,8 +6,8 @@ import ProjectCard from './ProjectCard'
 
 import OscarLogo from '../../assets/images/oscar_handyman.svg'
 import PhoenixLogo from '../../assets/images/phoenix_bionics.png'
-import JeanJacketLogo from '../../assets/images/arte_jean_jacket.png'
-
+import JeanJacketLogo from '../../assets/images/arte.svg'
+import BowowLogo from '../../assets/images/bowow.jfif'
 
 const Projects = () => {
 
@@ -45,7 +45,8 @@ const Projects = () => {
               title="Phoenix Bionics"
               imgSrc={PhoenixLogo}
               description="Open Source Hand Project implementing Machine Learning
-                           from piezoelectric sensors into a mechanical output."
+                           from piezoelectric sensors into a mechanical output, 
+                           and the website was built using React"
             />
             <ProjectCard
               href="https://arte-qz7j.onrender.com/"
@@ -53,7 +54,17 @@ const Projects = () => {
               imgSrc={JeanJacketLogo}
               description="Implemented a full stack EJS-Express website and 
                            a online e-commerce storefront and backend with stripe
-                           for another Latino owned sole propreitorship."
+                           for another Latino owned sole propreitorship selling 
+                           templates to paint on jean jackets"
+            />
+            <ProjectCard
+              href="https://official-bowow-music.onrender.com/"
+              title="Bowow Music"
+              imgSrc={BowowLogo}
+              description="Implemented a full stack EJS-Express website with 
+                           parallax scroll and AI generated images for a 
+                           Music Producer and DJ, allowing users to play his 
+                           music."
             />
           </div>
         </div>
