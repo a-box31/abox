@@ -73,6 +73,32 @@
   }
 }
 
+@media ( max-width: 600px ) {
+  .contact-page {
+    
+    .text-zone {
+      position: absolute;
+      left: 20%;
+      top: 10vh;
+      width: 70%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: fit-content;
+
+      h1 {
+        font-size: 33px;
+        font-family: 'Coolvetica';
+        color: orange;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+      }
+    }
+  }
+}
+
 .contact-form {
   width: 100%;
   margin-top: 20px;
