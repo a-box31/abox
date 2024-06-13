@@ -17,7 +17,7 @@
   svg {
     width: 100%;
     height: auto;
-    bottom: 0;
+    bottom: 0px;
     transform: rotateZ(30deg) !important;
   }
 
@@ -43,6 +43,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    bottom: 20px;
   }
   
 }
