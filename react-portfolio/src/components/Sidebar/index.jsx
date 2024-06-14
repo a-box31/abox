@@ -93,6 +93,15 @@ const SideBar = () => {
             <a
               target="_blank"
               rel="noreferrer"
+              href="mailto:thomaa2031@gmail.com"
+            >
+              <FontAwesomeIcon icon={faAt} color="#4d4d4e" />
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
               href="https://www.instagram.com/a_box_31/"
             >
               <FontAwesomeIcon icon={faInstagram} color="#4d4d4e" />
@@ -105,15 +114,6 @@ const SideBar = () => {
               href="https://twitter.com/thomaa2031"
             >
               <FontAwesomeIcon icon={faXTwitter} color="#4d4d4e" />
-            </a>
-          </li>
-          <li>
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="mailto:thomaa2031@gmail.com"
-            >
-              <FontAwesomeIcon icon={faAt} color="#4d4d4e" />
             </a>
           </li>
         </ul>
