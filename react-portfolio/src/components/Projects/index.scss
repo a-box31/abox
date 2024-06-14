@@ -67,11 +67,13 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 1700px) {
 
   .projects-page {
     
     // background-color: purple;
+    height: 200vh;
+    width: 80vw;
 
     .text-zone {
       position: absolute;
@@ -97,7 +99,49 @@
   
   .projects-container {
     flex-direction: column;
-    top: 20%;
+    top: 10%;
+    left: 11%;
+    height: 100%;
+  }
+
+  
+}
+
+
+
+@media (max-width: 600px) {
+
+  .projects-page {
+    
+    // background-color: purple;
+    height: 170vh;
+    width: 100vw;
+
+    .text-zone {
+      position: absolute;
+      left: 20%;
+      top: 10vh;
+      width: 40%;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: fit-content;
+
+      h1 {
+        font-size: 33px;
+        font-family: 'Coolvetica';
+        color: orange;
+        font-weight: 400;
+        margin-top: 0;
+        position: relative;
+        margin-bottom: 40px;
+        left: 10px;
+      }
+    }
+  }
+  
+  .projects-container {
+    flex-direction: column;
+    top: 15%;
     left: 11%;
     height: 100%;
   }

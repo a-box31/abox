@@ -9,10 +9,10 @@ const ProjectCard = ({href, title, imgSrc, description}) => {
       <a href={href}>
         <div>
           <h2>{title}</h2>
-          <img className="project-icon" src={imgSrc} alt="logo" />
+          <p>{description}</p>
         </div>
         <div>
-          <p>{description}</p>
+          <img className="project-icon" src={imgSrc} alt="logo" />
         </div>
       </a>
     </div>

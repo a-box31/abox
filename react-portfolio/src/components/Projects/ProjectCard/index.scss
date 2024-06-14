@@ -10,15 +10,18 @@ $primary-color: #ffa500;
     border: 1px solid $primary-color;
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsl(44, 100%, 49%);
-
     background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 
     a{
+        height: 100%;
+        width: 100%;
         text-decoration: none;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
 
         h2 {
             font-weight: bold;
@@ -29,8 +32,8 @@ $primary-color: #ffa500;
         }
 
         img {
-            height: 150px;
-            width: auto;
+            height: auto;
+            width: 150px;
         }
         p {
             font-family: Arial, Helvetica, sans-serif;
@@ -43,6 +46,100 @@ $primary-color: #ffa500;
     }
 }
 
-.project-icon {
-    width: 100%;
+@media ( max-width: 1700px ){
+
+.project-card{
+    width: 350px;
+    height: 250px;
+    padding: 5px;
+
+    border: 1px solid $primary-color;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(44, 100%, 49%);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+
+    a{
+        height: 100%;
+        width: 100%;
+        text-decoration: none;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-weight: bold;
+            font-size: larger;
+            font-family: "Helvetica Neue", Helvetica, Arial;
+            color: black;
+            
+        }
+
+        img {
+            height: auto;
+            width: 150px;
+        }
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 11px;
+            font-weight: lighter;
+        }
+    }
+    a:visited {
+        color: black;
+    }
 }
+}
+
+
+@media (max-width: 600px) {
+    .project-card{
+        width: 250px;
+        height: 250px;
+        padding: 5px;
+
+        border: 1px solid $primary-color;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px hsl(44, 100%, 49%);
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+
+        a{
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            h2 {
+                font-weight: bold;
+                font-size: larger;
+                font-family: "Helvetica Neue", Helvetica, Arial;
+                color: black;
+                
+            }
+
+            img {
+                height: auto;
+                width: 150px;
+            }
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 11px;
+                font-weight: lighter;
+            }
+        }
+        a:visited {
+            color: black;
+        }
+    }
+}
+
+// .project-icon {
+//     width: 100%;
+// }
