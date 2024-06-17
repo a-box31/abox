@@ -1,0 +1,53 @@
+.games-page {
+  
+  background-color: purple;
+
+  .text-zone {
+    position: absolute;
+    left: 20%;
+    top: 10vh;
+    width: 40%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: fit-content;
+
+    h1 {
+      font-size: 53px;
+      font-family: 'Coolvetica';
+      color: orange;
+      font-weight: 400;
+      margin-top: 0;
+      position: relative;
+      margin-bottom: 40px;
+      left: 10px;
+
+      &::before {
+        content: '<h1>';
+        font-family: 'La Belle Aurore';
+        color: orange;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        left: -10px;
+        opacity: 0.6;
+        line-height: 18px;
+        // animation: fadeIn 1.5s 2s backwards;
+      }
+
+      &::after {
+        content: '</h1>';
+        font-family: 'La Belle Aurore';
+        color: orange;
+        font-size: 18px;
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 20px;
+        bottom: -20px;
+        left: -30px;
+        opacity: 0.6;
+        line-height: 18px;
+        // animation: fadeIn 1.5s 2s backwards;
+      }
+    }
+  }
+}

@@ -8,6 +8,8 @@ import OscarLogo from '../../assets/images/oscar_handyman.svg'
 import PhoenixLogo from '../../assets/images/phoenix_bionics.png'
 import JeanJacketLogo from '../../assets/images/arte.svg'
 import BowowLogo from '../../assets/images/bowow.jfif'
+// import Swamped from '../../assets/images/Swamped.jpg'
+
 
 const Projects = () => {
 
@@ -66,6 +68,14 @@ const Projects = () => {
                            Music Producer and DJ, allowing users to play his 
                            music."
             />
+            {/* <ProjectCard
+              href=""
+              title="Swamped"
+              imgSrc={Swamped}
+              description="Implemented a python game with pygame library where 
+                           a 2D RPG prototype game was created, to you win,
+                           3 enemies must be defeated in order to win."
+            /> */}
           </div>
         </div>
         <Loader type="triangle-skew-spin" />

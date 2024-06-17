@@ -10,6 +10,7 @@ import {
   faUser,
   faFile,
   faKeyboard,
+  faGamepad,
   faAt,
 } from '@fortawesome/free-solid-svg-icons'
 import {
@@ -58,6 +59,15 @@ const SideBar = () => {
             to="/projects"
           >
             <FontAwesomeIcon icon={faKeyboard} color="#4d4d4e" />
+          </NavLink>
+
+          <NavLink
+            exact="true"
+            activeclassname="active"
+            className="games-link"
+            to="/games"
+          >
+            <FontAwesomeIcon icon={faGamepad} color="#4d4d4e" />
           </NavLink>
 
           <NavLink

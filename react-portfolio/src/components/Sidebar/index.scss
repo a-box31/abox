@@ -99,6 +99,12 @@
       }
     }
 
+    a.games-link {
+      &:after {
+        content: "GAMES";
+      }
+    }
+
     a.contact-link {
       &:after {
         content: 'CONTACT';
