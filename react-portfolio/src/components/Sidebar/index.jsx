@@ -21,6 +21,13 @@ import {
 } from '@fortawesome/free-brands-svg-icons'
 
 const SideBar = () => {
+
+  // need to make the sidebar visible for mobile screen sizes
+  // will need to implement a sidebar that on shorter screen heights
+  // either a hamburger menu or a expandable tool bar in needed for
+  // mobile landscape mode
+  
+
   return (
     <>
       <div className="nav-bar">
