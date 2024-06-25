@@ -1,6 +1,7 @@
 import {useState, useEffect } from 'react'
 import AnimatedLetters from "../AnimatedLetters"
 import Loader from 'react-loaders'
+import "./index.scss"
 
 const Games = () => {
 
@@ -28,8 +29,7 @@ const Games = () => {
             <iframe
               frameborder="0"
               src="https://itch.io/embed/2778117"
-              width="552"
-              height="167"
+              className='game-iframe'
             >
               <a href="https://abox31.itch.io/abox-rpg">Swamped by abox31</a>
             </iframe>

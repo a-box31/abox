@@ -1,6 +1,6 @@
 .games-page {
   
-  background-color: purple;
+  // background-color: purple;
 
   .text-zone {
     position: absolute;
@@ -50,4 +50,42 @@
       }
     }
   }
+}
+
+.game-iframe {
+  width: 600px;
+  height: 150px;
+  border: none;
+}
+
+@media ( max-width: 767px ) {
+
+  .game-iframe {
+    width: 500px;
+  }
+}
+
+@media ( max-width: 567px ) {
+
+  .game-iframe {
+    width: 400px;
+  }
+}
+
+
+@media ( max-width: 467px ) {
+
+  .games-page {
+    
+    .text-zone {
+      h1 {
+        font-size: 33px;
+      }
+    }
+  }
+
+  .game-iframe {
+    width: 200px;
+  }
+
 }
