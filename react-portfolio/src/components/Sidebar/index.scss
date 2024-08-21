@@ -147,6 +147,17 @@
 @media (max-height: 700px) {
   .nav-bar {
     nav {
+      top: 35%;
+    }
+    ul{
+      bottom: 20px;
+    }
+  }
+}
+
+@media (max-height: 500px) {
+  .nav-bar {
+    nav {
       top: 30%;
     }
     ul{
@@ -154,3 +165,4 @@
     }
   }
 }
+
