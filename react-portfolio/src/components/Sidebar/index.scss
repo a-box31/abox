@@ -143,3 +143,14 @@
   }
   
 }
+
+@media (max-height: 700px) {
+  .nav-bar {
+    nav {
+      top: 30%;
+    }
+    ul{
+      bottom: 70px;
+    }
+  }
+}
