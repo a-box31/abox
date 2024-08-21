@@ -57,13 +57,11 @@
   height: 60%;
 
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 7%;
 
   // background-color: red;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
 }
@@ -73,7 +71,8 @@
 
   .projects-page {
     
-    height: fit-content;
+    // background-color: purple;
+    height: 200vh;
     width: 80vw;
 
     .text-zone {
@@ -100,10 +99,9 @@
   
   .projects-container {
     flex-direction: column;
-    justify-content: flex-start;
-    top: 40%;
+    top: 10%;
     left: 11%;
-    height: fit-content;
+    height: 100%;
   }
 
   
@@ -114,11 +112,14 @@
 @media (max-width: 600px) {
 
   .projects-page {
-    height: fit-content;
+    
+    // background-color: purple;
+    height: 170vh;
+    width: 100vw;
 
     .text-zone {
       position: absolute;
-      left: 25%;
+      left: 20%;
       top: 10vh;
       width: 40%;
       vertical-align: middle;
@@ -140,10 +141,9 @@
   
   .projects-container {
     flex-direction: column;
-    top: 30%;
-    left: 21%;
-    height: fit-content;
-    // height: 100%;
+    top: 15%;
+    left: 11%;
+    height: 100%;
   }
 
   
