@@ -35,7 +35,7 @@ const Resume = () => {
             // src="https://docs.google.com/document/d/e/2PACX-1vTVPPGlooq-xpmcnC7meFs3UDXhSSXVoenpk_kaddPDuhJzhhKqcMQb_xqO9UfSIRsUBVlcub3cAwQw/pub?embedded=true"
           ></object> */}
           <iframe
-            src="https://drive.google.com/file/d/1Us-zJTWO-UDT6zCyiTnT7Vun4TQ6zngW/preview"
+            src="https://drive.google.com/file/d/1byIFQFeuOOi1EhECDXodaphEEd9xUrcZ/preview"
             className="resume"
             allow="autoplay"
           ></iframe>
