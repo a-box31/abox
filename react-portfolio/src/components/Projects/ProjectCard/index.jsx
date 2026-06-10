@@ -12,7 +12,37 @@ const ProjectCard = ({href, title, imgSrc, description}) => {
           <p>{description}</p>
         </div>
         <div>
-          <img className="project-icon" src={imgSrc} alt="logo" />
+          {imgSrc ? (
+            <img className="project-icon" src={imgSrc} alt="logo" />
+          ) : (
+            <svg
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="3"
+                y="6"
+                width="26"
+                height="20"
+                rx="3"
+                className="fill-blue-500"
+              />
+              <rect
+                x="3"
+                y="20"
+                width="26"
+                height="6"
+                rx="1.5"
+                className="fill-blue-600"
+              />
+              <circle cx="24" cy="23" r="1.5" className="fill-blue-300" />
+              <path
+                d="M16 11.5c-.8-1.8-3-2.5-4.5-1.2s-1.7 3.5 0 5.2l4.5 4 4.5-4c1.7-1.7 1.5-3.9 0-5.2s-3.7-.6-4.5 1.2z"
+                className="fill-white/90"
+              />
+            </svg>
+          )}
         </div>
       </a>
     </div>

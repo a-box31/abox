@@ -5,10 +5,7 @@ import {useState, useEffect } from 'react'
 import ProjectCard from './ProjectCard'
 
 import OscarLogo from '../../assets/images/oscar_handyman.svg'
-import PhoenixLogo from '../../assets/images/phoenix_bionics.png'
-import JeanJacketLogo from '../../assets/images/arte.svg'
 import BowowLogo from '../../assets/images/bowow.jfif'
-// import Swamped from '../../assets/images/Swamped.jpg'
 
 
 const Projects = () => {
@@ -35,29 +32,12 @@ const Projects = () => {
           </div>
           <div className="projects-container">
             <ProjectCard
-              href="https://oscar-handyman.onrender.com/"
-              title="Oscar Handyman"
+              href="https://bistate-carpentry-llc.onrender.com/"
+              title="Bistate Carpentry LLC"
               imgSrc={OscarLogo}
               description="Implemented a full stack EJS-Express website and 
                            a google business profile for a Latino owned sole 
                            propreitorship."
-            />
-            <ProjectCard
-              href="https://phoenixbionics.onrender.com/#"
-              title="Phoenix Bionics"
-              imgSrc={PhoenixLogo}
-              description="Open Source Hand Project implementing Machine Learning
-                           from piezoelectric sensors into a mechanical output, 
-                           and the website was built using React"
-            />
-            <ProjectCard
-              href="https://arte-qz7j.onrender.com/"
-              title="Arte"
-              imgSrc={JeanJacketLogo}
-              description="Implemented a full stack EJS-Express website and 
-                           a online e-commerce storefront and backend with stripe
-                           for another Latino owned sole propreitorship selling 
-                           templates to paint on jean jackets"
             />
             <ProjectCard
               href="https://official-bowow-music.onrender.com/"
@@ -68,14 +48,14 @@ const Projects = () => {
                            Music Producer and DJ, allowing users to play his 
                            music."
             />
-            {/* <ProjectCard
-              href=""
-              title="Swamped"
-              imgSrc={Swamped}
-              description="Implemented a python game with pygame library where 
-                           a 2D RPG prototype game was created, to you win,
-                           3 enemies must be defeated in order to win."
-            /> */}
+            <ProjectCard
+              href="https://cloudpulse.duckdns.org/"
+              title="CloudPulse"
+              description="Personal cloud service that implemented a full stack Next.js website that connects
+                           to a local Express server to serve out files, upload,
+                           download, and delete files from a local directory from 
+                           your computer."
+            />
           </div>
         </div>
         <Loader type="triangle-skew-spin" />
